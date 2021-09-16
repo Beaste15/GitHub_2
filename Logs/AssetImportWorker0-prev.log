@@ -1,0 +1,1801 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.16f1 (049d6eca3c44) revision 302446'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Enterprise; OS build 19042.1083; Version 2009; 64bit' Language: 'en' Physical Memory: 16230 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/beasterda/Project 1
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55383
+Successfully changed project path to: C:/Users/beasterda/Project 1
+C:/Users/beasterda/Project 1
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 102.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.16f1 (049d6eca3c44)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/beasterda/Project 1/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA Quadro P2000 (ID=0x1cba)
+    Vendor:   
+    VRAM:     4018 MB
+    Driver:   27.21.14.5296
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56808
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009831 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 85.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.658 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4659ms)
+		BeginReloadAssembly (196ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1373ms)
+			LoadAssemblies (191ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (563ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (100ms)
+			SetupLoadedEditorAssemblies (465ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (85ms)
+				BeforeProcessingInitializeOnLoad (29ms)
+				ProcessInitializeOnLoadAttributes (240ms)
+				ProcessInitializeOnLoadMethodAttributes (95ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.027166 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.826 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2829ms)
+		BeginReloadAssembly (445ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (19ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (2241ms)
+			LoadAssemblies (239ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (779ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (104ms)
+			SetupLoadedEditorAssemblies (887ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (114ms)
+				ProcessInitializeOnLoadAttributes (718ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (26ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (28ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.18 seconds
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1397 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.4 MB.
+System memory in use after: 84.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1852.
+Total: 6.898400 ms (FindLiveObjects: 0.625900 ms CreateObjectMapping: 0.176200 ms MarkObjects: 6.044100 ms  DeleteObjects: 0.043700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Models/EnvBranch.fbx
+  artifactKey: Guid(e976263b76c780246927a3f1e83ef77e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/EnvBranch.fbx using Guid(e976263b76c780246927a3f1e83ef77e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2acd6d5d337ab577ffdc233ee907c659') in 0.253228 seconds 
+  Import took 0.257740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 132.169845 seconds.
+  path: Assets/Models/Materials/EnvBranch_1.mat
+  artifactKey: Guid(0a1a3a83bfb15f04184fde375d507486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/EnvBranch_1.mat using Guid(0a1a3a83bfb15f04184fde375d507486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0f6a1d28ff759578a83106a444b6dbb') in 0.089485 seconds 
+  Import took 0.095326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.872533 seconds.
+  path: Assets/Models/Mushroom.fbx
+  artifactKey: Guid(10d61d39debc1664d87ea177be7f9bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mushroom.fbx using Guid(10d61d39debc1664d87ea177be7f9bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e473da9684743dd8b91369435b89b63') in 0.027620 seconds 
+  Import took 0.033050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.924429 seconds.
+  path: Assets/Models/Materials/MushroomPileus.mat
+  artifactKey: Guid(25e62ae55c6485840af19b1f98f7f20f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/MushroomPileus.mat using Guid(25e62ae55c6485840af19b1f98f7f20f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5637cf7d4e483c69209f8a32edddeb5c') in 0.020914 seconds 
+  Import took 0.027586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000717 seconds.
+  path: Assets/Models/Materials/MushroomStipe.mat
+  artifactKey: Guid(ffb4b0f1c6773bb47b11bd7e227f1e62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/MushroomStipe.mat using Guid(ffb4b0f1c6773bb47b11bd7e227f1e62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38adba219d64badd573ec355c64e6636') in 0.029072 seconds 
+  Import took 0.037641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 328.376083 seconds.
+  path: Assets/Models/Rock.fbx
+  artifactKey: Guid(77f13acc17374054989a677c5800b18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Rock.fbx using Guid(77f13acc17374054989a677c5800b18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd1fa218f91e119cf2b2f8bc78372587') in 0.021693 seconds 
+  Import took 0.025427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Models/Rocks_3.mat
+  artifactKey: Guid(cb4bf41e69d9bf2459fb6b998053b455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Rocks_3.mat using Guid(cb4bf41e69d9bf2459fb6b998053b455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e5e049716621d0a07ef372c36dbb750') in 0.012123 seconds 
+  Import took 0.014877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.666561 seconds.
+  path: Assets/Models/Stones.fbx
+  artifactKey: Guid(769b6895c84efdc45b8d312a9a36fbde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Stones.fbx using Guid(769b6895c84efdc45b8d312a9a36fbde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f47e8d93188b49a57af9d4ac7cee0331') in 0.019377 seconds 
+  Import took 0.022725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000923 seconds.
+  path: Assets/Models/Stones.fbx
+  artifactKey: Guid(769b6895c84efdc45b8d312a9a36fbde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Stones.fbx using Guid(769b6895c84efdc45b8d312a9a36fbde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f47e8d93188b49a57af9d4ac7cee0331') in 0.023889 seconds 
+  Import took 0.028003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.894020 seconds.
+  path: Assets/Models/Materials/Rocks_3.mat
+  artifactKey: Guid(cb4bf41e69d9bf2459fb6b998053b455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/Rocks_3.mat using Guid(cb4bf41e69d9bf2459fb6b998053b455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07aa8f89d539621813fcc329910de751') in 0.016389 seconds 
+  Import took 0.020482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000459 seconds.
+  path: Assets/Models/Materials/Stones_1.mat
+  artifactKey: Guid(3101f3817277c5f498ed907a3c619514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/Stones_1.mat using Guid(3101f3817277c5f498ed907a3c619514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '186461e704e6ec1f31b35106545f9042') in 0.016899 seconds 
+  Import took 0.021548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 250.472733 seconds.
+  path: Assets/Models/Materials
+  artifactKey: Guid(d5d818758171fad43b7b53e2a8f47df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials using Guid(d5d818758171fad43b7b53e2a8f47df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e3b71339c2b55b98824c7e6b5377e11') in 0.003503 seconds 
+  Import took 0.006581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.666980 seconds.
+  path: Assets/Models/Materials/Grass.mat
+  artifactKey: Guid(9a5698dd477a7a2438449a5e671f3169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/Grass.mat using Guid(9a5698dd477a7a2438449a5e671f3169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a97f31d12fd0cf9e1e0ae4e3a1c96549') in 0.026853 seconds 
+  Import took 0.041391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 186.283846 seconds.
+  path: Assets/Models/Materials/House.mat
+  artifactKey: Guid(83e4c19a6c7be7c4db12e40031c959c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/House.mat using Guid(83e4c19a6c7be7c4db12e40031c959c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '303001c52a3354fc404e521f07e80922') in 0.012646 seconds 
+  Import took 0.018034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 762.671643 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.009277 seconds 
+  Import took 0.018377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.214044 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(2f4eb6064d6d4f844ab2d5ad50d37288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(2f4eb6064d6d4f844ab2d5ad50d37288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75f43c190f353cda5e573f6faef4fc93') in 0.005135 seconds 
+  Import took 0.008424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 100.800692 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f58ecaa6e9407fee6c2551f39222b34') in 0.041671 seconds 
+  Import took 0.048132 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012617 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.371 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2372ms)
+		BeginReloadAssembly (162ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (2116ms)
+			LoadAssemblies (139ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (756ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (924ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (156ms)
+				ProcessInitializeOnLoadAttributes (720ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (20ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1392 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.8 MB.
+System memory in use after: 87.9 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1898.
+Total: 8.993300 ms (FindLiveObjects: 0.272600 ms CreateObjectMapping: 0.083700 ms MarkObjects: 8.578100 ms  DeleteObjects: 0.056800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016437 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.248 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3273ms)
+		BeginReloadAssembly (561ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (71ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (250ms)
+		EndReloadAssembly (2502ms)
+			LoadAssemblies (255ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (775ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (122ms)
+			SetupLoadedEditorAssemblies (1037ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (148ms)
+				ProcessInitializeOnLoadAttributes (829ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1392 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.8 MB.
+System memory in use after: 87.9 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1900.
+Total: 6.937200 ms (FindLiveObjects: 0.502300 ms CreateObjectMapping: 0.159800 ms MarkObjects: 6.229900 ms  DeleteObjects: 0.042300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 169415.301048 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6ff8e01889ef766a74adb12c809c3e6') in 0.013235 seconds 
+  Import took 0.020111 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.022980 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.923 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1924ms)
+		BeginReloadAssembly (232ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (60ms)
+		EndReloadAssembly (1529ms)
+			LoadAssemblies (195ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (591ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (550ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (446ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1392 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.8 MB.
+System memory in use after: 88.0 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1902.
+Total: 3.571600 ms (FindLiveObjects: 0.156800 ms CreateObjectMapping: 0.047900 ms MarkObjects: 3.327500 ms  DeleteObjects: 0.037800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.029317 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.427 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2429ms)
+		BeginReloadAssembly (257ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (2000ms)
+			LoadAssemblies (224ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (555ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (89ms)
+			SetupLoadedEditorAssemblies (932ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (714ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (89ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (27ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1392 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.9 MB.
+System memory in use after: 88.0 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1904.
+Total: 6.511100 ms (FindLiveObjects: 0.327200 ms CreateObjectMapping: 0.102500 ms MarkObjects: 6.037300 ms  DeleteObjects: 0.040200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017047 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.793 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1794ms)
+		BeginReloadAssembly (197ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (1464ms)
+			LoadAssemblies (168ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (442ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (614ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (499ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1392 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.9 MB.
+System memory in use after: 88.0 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1906.
+Total: 3.572100 ms (FindLiveObjects: 0.183300 ms CreateObjectMapping: 0.062000 ms MarkObjects: 3.297000 ms  DeleteObjects: 0.026500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013568 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.504 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2504ms)
+		BeginReloadAssembly (206ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (2078ms)
+			LoadAssemblies (215ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (684ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (97ms)
+			SetupLoadedEditorAssemblies (825ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (717ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1392 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.9 MB.
+System memory in use after: 88.0 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1908.
+Total: 6.020600 ms (FindLiveObjects: 0.758700 ms CreateObjectMapping: 0.120100 ms MarkObjects: 5.096300 ms  DeleteObjects: 0.042100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008751 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.299 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2300ms)
+		BeginReloadAssembly (131ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (2084ms)
+			LoadAssemblies (161ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (615ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (100ms)
+			SetupLoadedEditorAssemblies (917ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (132ms)
+				ProcessInitializeOnLoadAttributes (734ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1392 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.9 MB.
+System memory in use after: 88.0 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1910.
+Total: 6.055000 ms (FindLiveObjects: 0.298200 ms CreateObjectMapping: 0.101100 ms MarkObjects: 5.614400 ms  DeleteObjects: 0.037800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1252.874669 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c16dcf5715e4de342abdb8e21eeac2ca') in 0.010510 seconds 
+  Import took 0.025178 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009898 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.262 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2262ms)
+		BeginReloadAssembly (158ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (2022ms)
+			LoadAssemblies (126ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (683ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (103ms)
+			SetupLoadedEditorAssemblies (798ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (687ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1392 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.9 MB.
+System memory in use after: 88.0 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1912.
+Total: 6.086500 ms (FindLiveObjects: 0.216100 ms CreateObjectMapping: 0.063100 ms MarkObjects: 5.757600 ms  DeleteObjects: 0.047600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017426 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.155 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2155ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (1953ms)
+			LoadAssemblies (110ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (580ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (101ms)
+			SetupLoadedEditorAssemblies (848ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (136ms)
+				ProcessInitializeOnLoadAttributes (676ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1392 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.9 MB.
+System memory in use after: 88.0 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1914.
+Total: 9.376900 ms (FindLiveObjects: 0.526000 ms CreateObjectMapping: 0.180200 ms MarkObjects: 8.610000 ms  DeleteObjects: 0.056600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1342.649330 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.004750 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.013736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027704 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000688 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.005180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020673 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000386 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.002948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013169 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000609 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.007473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015412 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000495 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.002793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013037 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000516 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.003122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012358 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000443 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.003697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012095 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000535 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.003136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013262 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000411 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.003031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020915 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000424 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.002838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013163 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000685 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.003422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013200 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000382 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.003173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015172 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000388 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.003028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016366 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000367 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.003573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020959 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000355 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.002751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013574 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000335 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.002669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015288 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000334 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.002845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014519 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000486 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.003058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013336 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000336 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.003068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020443 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000416 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.003222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012756 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000396 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.002669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019409 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000330 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.003067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011914 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000451 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.003147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012824 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000524 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.003393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032316 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000441 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.003138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013952 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000386 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.003123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016634 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000422 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.002799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014127 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000377 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.003029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014408 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000368 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.003039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018186 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000639 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.004621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018266 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000382 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.002921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017370 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000551 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.004510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016803 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000333 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.002969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017267 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000378 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.003379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020716 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000404 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.003331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031107 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000458 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.003604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020615 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000376 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.002913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016476 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000428 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.003076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017624 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000539 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.003422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016610 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000327 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.002802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020630 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000340 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.002758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021066 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000401 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.002936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014970 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000363 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.003038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015573 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000361 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.002804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014582 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000306 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.002567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015143 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000422 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.003187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020897 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000391 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.002899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013453 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000524 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.003386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014985 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000318 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.002812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015661 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000613 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.004175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016184 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000374 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.002919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015749 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000340 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.002949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025674 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000389 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.003486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018152 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000475 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.005046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013550 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000575 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.004605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013443 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000478 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.003488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014844 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000469 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.002928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020154 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000312 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.002699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020633 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000505 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.003761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014793 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000467 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.003252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014806 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000305 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.002817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015282 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000313 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.002681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014812 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000367 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.003328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019399 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000436 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.003039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021513 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000441 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.003166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015473 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000352 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.003096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015405 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000400 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.002850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018037 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000396 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.002812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035389 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000491 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.003684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018620 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000358 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.002815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013995 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000324 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.002791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016054 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000399 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.003334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018592 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000326 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.002751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017633 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000469 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.003242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017057 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000359 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.002743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015440 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000382 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.003139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018799 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000589 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.003490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018904 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000655 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.003298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013691 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000496 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.003323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012599 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000556 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.003248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012971 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000469 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.003558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019877 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000399 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.003529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020874 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000397 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.003287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014635 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000471 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.003081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012955 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000313 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.002923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016135 seconds.
+  path: Assets/Scripts/Clouds.cs
+  artifactKey: Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Clouds.cs using Guid(d8b8702ad919dc54598246400fd9cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000368 seconds  code(4) message(Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z')
+  ERROR: Build asset version error: assets/scripts/clouds.cs in SourceAssetDB has modification time of '2021-09-09T14:07:15.8770307Z' while content on disk has modification time of '2021-09-09T14:07:17.8388304Z'
+  Import took 0.002731 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009914 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.706 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2707ms)
+		BeginReloadAssembly (142ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (2382ms)
+			LoadAssemblies (169ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (760ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (106ms)
+			SetupLoadedEditorAssemblies (1030ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (143ms)
+				ProcessInitializeOnLoadAttributes (836ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (21ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1392 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.9 MB.
+System memory in use after: 88.0 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1916.
+Total: 6.165800 ms (FindLiveObjects: 0.291500 ms CreateObjectMapping: 0.097100 ms MarkObjects: 5.733100 ms  DeleteObjects: 0.041100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.029225 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.856 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1857ms)
+		BeginReloadAssembly (286ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (19ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (75ms)
+		EndReloadAssembly (1423ms)
+			LoadAssemblies (202ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (513ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (504ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (408ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1392 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.9 MB.
+System memory in use after: 88.0 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1918.
+Total: 3.077600 ms (FindLiveObjects: 0.162000 ms CreateObjectMapping: 0.046800 ms MarkObjects: 2.847400 ms  DeleteObjects: 0.020000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013720 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.234 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2234ms)
+		BeginReloadAssembly (188ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1945ms)
+			LoadAssemblies (164ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (517ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (939ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (141ms)
+				ProcessInitializeOnLoadAttributes (743ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (20ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1392 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.9 MB.
+System memory in use after: 88.0 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1920.
+Total: 3.612600 ms (FindLiveObjects: 0.175400 ms CreateObjectMapping: 0.045700 ms MarkObjects: 3.373000 ms  DeleteObjects: 0.017100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.024653 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.681 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2682ms)
+		BeginReloadAssembly (275ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (84ms)
+		EndReloadAssembly (2238ms)
+			LoadAssemblies (237ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (719ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (101ms)
+			SetupLoadedEditorAssemblies (938ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (133ms)
+				ProcessInitializeOnLoadAttributes (758ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1392 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.9 MB.
+System memory in use after: 88.0 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1922.
+Total: 6.269200 ms (FindLiveObjects: 0.289800 ms CreateObjectMapping: 0.106600 ms MarkObjects: 5.830700 ms  DeleteObjects: 0.039200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
